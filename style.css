@@ -1,0 +1,57 @@
+body {
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    background-color: rgb(120, 255, 181);
+}
+.container{
+    height:90%;
+    width:40%;
+    margin: 1% auto; 
+   
+  
+}
+input {
+    line-height:30px;
+}
+#add-btn {
+    line-height:30px;
+    font-size: 15px;
+    background-color:#4426af;
+    color: white;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #24052c; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 30%;
+    text-align: center;
+}
+table{
+    width: 50%;
+    margin: 30px 1px;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
